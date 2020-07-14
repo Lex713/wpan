@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="index.html" resolutions="1x" timestamp="1594752381339">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="index.html" resolutions="1x" timestamp="1594752756796">
   <folder name="fonts">
     <file name="sharetechmono-regular.woff" crc="194216116"/>
     <file name="sharetechmono-regular.eot" crc="3971303318"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="314571582"/>
-    <file name="index.css" crc="3924449660" ref="index"/>
+    <file name="index.css" crc="4250745421" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
@@ -15,5 +15,5 @@
     <file name="jquery.watch.js" crc="522499760" ref="index"/>
     <file name="require.js" crc="4177726516" ref="index"/>
   </folder>
-  <file name="index.html" crc="266161657" seo="true" mt="1594752370234" redirect="true"/>
+  <file name="index.html" crc="217393498" seo="true" mt="1594752752507" redirect="true"/>
 </manifest>
