@@ -1,29 +1,19 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="index.html" resolutions="1x" timestamp="1594752015922">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="index.html" resolutions="1x" timestamp="1594752381339">
   <folder name="fonts">
     <file name="sharetechmono-regular.woff" crc="194216116"/>
     <file name="sharetechmono-regular.eot" crc="3971303318"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="444006867"/>
-    <file name="about.css" crc="4042801234" ref="about"/>
-    <file name="radio.css" crc="4042801234" ref="radio"/>
-    <file name="index.css" crc="3795866342" ref="index"/>
-    <file name="main.css" crc="224711565" ref="main"/>
-    <file name="chat.css" crc="4042801234" ref="chat"/>
-    <file name="home.css" crc="335069132" ref="home"/>
+    <file name="site_global.css" crc="314571582"/>
+    <file name="index.css" crc="3924449660" ref="index"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:chat:radio:about:main:home"/>
-    <file name="museutils.js" crc="3939489907" ref="index:chat:radio:about:main:home"/>
-    <file name="whatinput.js" crc="86476730" ref="index:chat:radio:about:main:home"/>
-    <file name="museconfig.js" crc="3936894949" ref="index:chat:radio:about:main:home"/>
-    <file name="jquery.watch.js" crc="522499760" ref="index:chat:radio:about:main:home"/>
-    <file name="require.js" crc="4177726516" ref="index:chat:radio:about:main:home"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3939489907" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="3936894949" ref="index"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index"/>
+    <file name="require.js" crc="4177726516" ref="index"/>
   </folder>
-  <file name="index.html" crc="4093767531" seo="true" mt="1594738303007" redirect="true"/>
-  <file name="chat.html" crc="24626129" seo="true" mt="1594574276587" redirect="false"/>
-  <file name="radio.html" crc="4258601021" seo="true" mt="1594574285124" redirect="false"/>
-  <file name="about.html" crc="535439192" seo="true" mt="1594574291032" redirect="false"/>
-  <file name="main.html" crc="190760311" seo="true" mt="1594575334535" redirect="true"/>
-  <file name="home.html" crc="3761649248" seo="true" mt="1594752012969" redirect="true"/>
+  <file name="index.html" crc="266161657" seo="true" mt="1594752370234" redirect="true"/>
 </manifest>
