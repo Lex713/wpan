@@ -17,7 +17,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/home.css?crc=180125592" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/home.css?crc=274807623" id="pagesheet"/>
     <!--custom head HTML-->
   <script src="typeit.min.js"></script>
   <!--HTML Widget code-->
@@ -51,6 +51,12 @@ html, body {overflow-y:hidden !important;}
    <div class="clearfix grpelem" id="pu450"><!-- column -->
     <div class="colelem" id="u450"><!-- custom html -->
      <style type="text/css">
+
+@font-face {
+  font-family: "ShareTechMono";
+  src: url(https://github.com/Lex713/wpan/raw/master/fonts/sharetechmono-regular.woff) format('woff');
+}
+
 body {
   white-space: pre
   height: 100vh;
@@ -58,7 +64,8 @@ body {
   overflow: hidden;
   padding: 2rem;
   color: #fff;
-  font: 30px Share Tech Mono, monospace;
+  font-family: ShareTechMono;
+  font-size: 30px;
   text-shadow: 0 0 5px #C8C8C8;
     //pointer-events: none;
   }
@@ -74,6 +81,7 @@ pre {
    #left { text-align: left; }
    #right { text-align: right; }
    #center { text-align: center; }
+
 
 a,
 a:link{
@@ -102,8 +110,40 @@ color: #222;
 text-decoration: none;
 }
 
+//custom selection
+
+::-moz-selection {
+  background-color: rgba(255, 255, 255, 1);
+  color: #222;
+  text-shadow: 0 0 5px #C8C8C8;
+}
+
+::selection {
+  background-color: rgba(255, 255, 255, 1);
+  color: #222;
+  text-shadow: 0 0 5px #C8C8C8;
+}
+
+//screen bevel
+
+&::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(black, 0.15),
+      rgba(black, 0.15) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+
+
+
 </style>
-</HTMLWidget>
 
     </div>
     <div class="size_fixed colelem" id="u455" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- custom html -->
@@ -275,6 +315,7 @@ function docWrite(variable) {
 }
 </script>
 
+
 <!-- Text block with awsm buttons -->
 
 <div class="TermText">
@@ -294,11 +335,12 @@ function docWrite(variable) {
 <br />Welcome, <script>docWrite(user)</script>!
 <br />=======================================
 <br />Please, choose an option:
-<br /><a href="">[Public chat]</a>
-<br /><a href="">[Radio]          </a>
-<br /><a href="">[About]         </a>
+<br /><a href="">[Public chat] </a>
+<br /><a href="">[Radio]         </a>
+<br /><a href="">[About]        </a>
 </span>
 </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 <script type="text/javascript">
@@ -418,7 +460,7 @@ document.oncontextmenu=new Function("alert(message);return false")
     document.onselectstart = new Function("return false") 
 
     if (window.sidebar) { 
-        document.onmousedown = disableselect 
+        document.  = disableselect 
         document.onclick = reEnable 
     } 
 </script>
