@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="index.html" resolutions="1x" timestamp="1594751665880">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="index.html" resolutions="1x" timestamp="1594752015922">
   <folder name="fonts">
     <file name="sharetechmono-regular.woff" crc="194216116"/>
     <file name="sharetechmono-regular.eot" crc="3971303318"/>
@@ -10,7 +10,7 @@
     <file name="index.css" crc="3795866342" ref="index"/>
     <file name="main.css" crc="224711565" ref="main"/>
     <file name="chat.css" crc="4042801234" ref="chat"/>
-    <file name="home.css" crc="274807623" ref="home"/>
+    <file name="home.css" crc="335069132" ref="home"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:chat:radio:about:main:home"/>
@@ -25,5 +25,5 @@
   <file name="radio.html" crc="4258601021" seo="true" mt="1594574285124" redirect="false"/>
   <file name="about.html" crc="535439192" seo="true" mt="1594574291032" redirect="false"/>
   <file name="main.html" crc="190760311" seo="true" mt="1594575334535" redirect="true"/>
-  <file name="home.html" crc="4281315742" seo="true" mt="1594751645135" redirect="true"/>
+  <file name="home.html" crc="3761649248" seo="true" mt="1594752012969" redirect="true"/>
 </manifest>
